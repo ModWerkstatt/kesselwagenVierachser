@@ -1,0 +1,84 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		color_blend = {
+			albedoScales = { 0, },
+			colors = {
+				{ 0, 0, 0, },
+			},
+		},
+		dirt_rust = {
+			age = 0,
+			dirtColor = { 0.16862744092941, 0.12046872079372, 0.068773537874222, },
+			dirtFactor = 0,
+			dirtOpacity = 0.03999999910593,
+			dirtScale = 1,
+			rustColor = { 0.19215685129166, 0.19215685129166, 0.19215685129166, },
+			rustFactor = 0,
+			rustOpacity = 0.37999999523163,
+			rustScale = 1,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/waggon/dreh_y25/drehgestellU_albedo.dds",
+			type = "TWOD",
+		},
+		map_cblend_dirt_rust = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/waggon/zasDR/zasDR_dca.dds",
+			type = "TWOD",
+		},
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/waggon/dreh_y25/drehgestellUY_mga.dds",
+			type = "TWOD",
+		},
+		map_normal = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/waggon/dreh_y25/drehgestellUY_nmrl.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+		},
+		map_rust_normal = {
+			fileName = "default_normal_map.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+}
+end

@@ -1,0 +1,830 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 7.9020304679871, 1.5132278203964, 4.435863494873, },
+		bbMin = { -7.9020304679871, -1.5132278203964, 0.23290126025677, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 7.9020304679871, 1.5132278203964, 2.1014811992645, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.097582876682281, 0, 0.00017165715689771, 0.99999737739563, -0.0017369973938912, 0, -0.097582712769508, 0.0017454595072195, 0.99522548913956, 0, -7.4400000572205, -1.0700000524521, 1.6000000238419, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.097582869231701, 0, 0.00017165712779388, 0.99999731779099, -0.0017369971610606, 0, -0.097582705318928, 0.0017454592743888, 0.99522542953491, 0, -7.4400000572205, 1.0599999427795, 1.6000000238419, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselhalterung_lod0.msh",
+						name = "jay_mesh_WUDefault_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_puffer_lod0.msh",
+						name = "jay_mesh_WUDefault_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kessel_lod0.msh",
+						name = "jay_mesh_WUDefault_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_hbremse_lod0.msh",
+						name = "jay_mesh_WUDefault_hbremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kupplung_lod0.msh",
+						name = "jay_mesh_WUDefault_kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_ventile_lod0.msh",
+						name = "jay_mesh_WUDefault_ventile",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_buhneTritt_lod0.msh",
+						name = "jay_mesh_WUDefault_buhneTritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_buhneHalterungen_lod0.msh",
+						name = "jay_mesh_WUDefault_buhneHalterungen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_ringe_lod0.msh",
+						name = "jay_mesh_WUDefault_ringe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_leitern_lod0.msh",
+						name = "jay_mesh_WUDefault_leitern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_allesWasDranIs_lod0.msh",
+						name = "jay_mesh_WUDefault_allesWasDranIs",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_seilhaken_lod0.msh",
+						name = "jay_mesh_WUDefault_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_schilder_lod0.msh",
+						name = "jay_mesh_WUDefault_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_halter_lod0.msh",
+						name = "jay_mesh_WUDefault_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_tankDeckel_lod0.msh",
+						name = "jay_mesh_WUDefault_tankDeckel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_einlassOben_lod0.msh",
+						name = "jay_mesh_WUDefault_einlassOben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_tritteBuhne_lod0.msh",
+						name = "jay_mesh_WUDefault_tritteBuhne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_hebel_lod0.msh",
+						name = "jay_mesh_WUDefault_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselLines_lod0.msh",
+						name = "jay_mesh_WUDefault_kesselLines",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_gitter_lod0.msh",
+						name = "jay_mesh_WUDefault_gitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod0.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod0.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_lod0.msh",
+								name = "dg_MdnSg_661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod0.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod0.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_lod0.msh",
+								name = "dg_MdnSg_661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 55.704738616943,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.097582876682281, 0, 0.00017165715689771, 0.99999737739563, -0.0017369973938912, 0, -0.097582712769508, 0.0017454595072195, 0.99522548913956, 0, -7.4400000572205, -1.0700000524521, 1.6000000238419, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.097582869231701, 0, 0.00017165712779388, 0.99999731779099, -0.0017369971610606, 0, -0.097582705318928, 0.0017454592743888, 0.99522542953491, 0, -7.4400000572205, 1.0599999427795, 1.6000000238419, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselhalterung_lod1.msh",
+						name = "jay_mesh_WUDefault_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_puffer_lod1.msh",
+						name = "jay_mesh_WUDefault_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kessel_lod1.msh",
+						name = "jay_mesh_WUDefault_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_hbremse_lod1.msh",
+						name = "jay_mesh_WUDefault_hbremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_ventile_lod1.msh",
+						name = "jay_mesh_WUDefault_ventile",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_buhneTritt_lod1.msh",
+						name = "jay_mesh_WUDefault_buhneTritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_buhneHalterungen_lod1.msh",
+						name = "jay_mesh_WUDefault_buhneHalterungen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_ringe_lod1.msh",
+						name = "jay_mesh_WUDefault_ringe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_leitern_lod1.msh",
+						name = "jay_mesh_WUDefault_leitern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_allesWasDranIs_lod1.msh",
+						name = "jay_mesh_WUDefault_allesWasDranIs",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_seilhaken_lod1.msh",
+						name = "jay_mesh_WUDefault_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_schilder_lod1.msh",
+						name = "jay_mesh_WUDefault_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_halter_lod1.msh",
+						name = "jay_mesh_WUDefault_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_tankDeckel_lod1.msh",
+						name = "jay_mesh_WUDefault_tankDeckel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_einlassOben_lod1.msh",
+						name = "jay_mesh_WUDefault_einlassOben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_tritteBuhne_lod1.msh",
+						name = "jay_mesh_WUDefault_tritteBuhne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_hebel_lod1.msh",
+						name = "jay_mesh_WUDefault_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselLines_lod1.msh",
+						name = "jay_mesh_WUDefault_kesselLines",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_gitter_lod0.msh",
+						name = "jay_mesh_WUDefault_gitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod1.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod1.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_lod1.msh",
+								name = "dg_MdnSg_661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod1.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod1.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_lod1.msh",
+								name = "dg_MdnSg_661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 55.704738616943,
+			visibleTo = 167.11421203613,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselhalterung_lod2.msh",
+						name = "jay_mesh_WUDefault_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_puffer_lod2.msh",
+						name = "jay_mesh_WUDefault_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kessel_lod2.msh",
+						name = "jay_mesh_WUDefault_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_buhneTritt_lod2.msh",
+						name = "jay_mesh_WUDefault_buhneTritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_buhneHalterungen_lod2.msh",
+						name = "jay_mesh_WUDefault_buhneHalterungen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_ringe_lod2.msh",
+						name = "jay_mesh_WUDefault_ringe",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_leitern_lod2.msh",
+						name = "jay_mesh_WUDefault_leitern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_allesWasDranIs_lod2.msh",
+						name = "jay_mesh_WUDefault_allesWasDranIs",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_schilder_lod2.msh",
+						name = "jay_mesh_WUDefault_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_halter_lod2.msh",
+						name = "jay_mesh_WUDefault_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_einlassOben_lod2.msh",
+						name = "jay_mesh_WUDefault_einlassOben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselLines_lod2.msh",
+						name = "jay_mesh_WUDefault_kesselLines",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_gitter_lod0.msh",
+						name = "jay_mesh_WUDefault_gitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod2.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod2.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_lod2.msh",
+								name = "dg_MdnSg_661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod2.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod2.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_lod2.msh",
+								name = "dg_MdnSg_661",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 167.11421203613,
+			visibleTo = 501.34262084961,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kesselhalterung_lod3.msh",
+						name = "jay_mesh_WUDefault_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_kessel_lod3.msh",
+						name = "jay_mesh_WUDefault_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTypWU/WuSiegen72_vtgTexaco.mtl", },
+						mesh = "vehicle/waggon/kesselTypWU/jay_mesh_WUDefault_schilder_lod3.msh",
+						name = "jay_mesh_WUDefault_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod3.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod3.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod3.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod3.msh",
+								name = "dg_MdnSg_661_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 501.34262084961,
+			visibleTo = 1504.0278320313,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1972,
+			yearTo = 1985,
+		},
+				cargoSlotProvider = {
+			slots = {
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_oel.mdl", },
+					randomId = 0,
+					transf = { 1, -8.7422769468049e-08, 0, 0, 8.7422769468049e-08, 1, 0, 0, -0, 0, 1, 0, 0.38999998569489, 0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_oel.mdl", },
+					randomId = 0,
+					transf = { -1, -3.8941436741879e-07, 0, 0, 3.8941436741879e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_rohoel.mdl", },
+					randomId = 0,
+					transf = { 1, -8.7422769468049e-08, 0, 0, 8.7422769468049e-08, 1, 0, 0, -0, 0, 1, 0, 0.38999998569489, 0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_rohoel.mdl", },
+					randomId = 0,
+					transf = { -1, -3.8941436741879e-07, 0, 0, 3.8941436741879e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff.mdl", },
+					randomId = 0,
+					transf = { 1, -8.7422769468049e-08, 0, 0, 8.7422769468049e-08, 1, 0, 0, -0, 0, 1, 0, 0.38999998569489, 0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff.mdl", },
+					randomId = 0,
+					transf = { -1, -3.8941436741879e-07, 0, 0, 3.8941436741879e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff2.mdl", },
+					randomId = 0,
+					transf = { 1, -8.7422769468049e-08, 0, 0, 8.7422769468049e-08, 1, 0, 0, -0, 0, 1, 0, 0.38999998569489, 0.0099999997764826, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff2.mdl", },
+					randomId = 0,
+					transf = { -1, -3.8941436741879e-07, 0, 0, 3.8941436741879e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.0099999997764826, 0.33000001311302, 1, },
+				},
+			},
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("WU Siegen Bj. 1971 (VTG/Texaco) [1972]"),
+		},
+		emission = {
+			idleEmission = 0,
+			powerEmission = 0,
+			speedEmission = 0,
+		},
+		maintenance = {
+			lifespan = 20000,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_MdnSg_661/dg_MdnSg_661_achse_lod3.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "mw_kessel",
+			},
+			topSpeed = 27.700000762939,
+			weight = 21,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 80,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 6, 7, },
+												},
+											},
+											{
+												slotLevels = {
+													{ },
+													{ 4, 5, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "FUEL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 80,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 2, 3, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "CRUDE",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 80,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 0, 1, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "OIL",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			groupFileName = "vehicle/waggon/WUKesselwagen_menu.mdl",
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

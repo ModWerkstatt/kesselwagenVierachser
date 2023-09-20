@@ -1,0 +1,36 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { -4.0904483795166, -1.3471096754074, 1.3655527830124, },
+		bbMin = { -4.6054658889771, -1.3712272644043, 0.98614275455475, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0.25750875473022, 0.012058794498444, 0.18970501422882, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/kesselTyp50/Tefel.mtl", },
+						mesh = "vehicle/waggon/kesselTyp50/jay_mesh_gefahrengut_oel_lod0.msh",
+						name = "jay_mesh_gefahrengut_oel",
+						transf = { 0.16368353366852, 0, 0, 0, 0, 0.012058824300766, 0, 0, 0, 0, 0.16368353366852, 0, -4.4422159194946, -1.3499332666397, 1.2437903881073, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 600.247993469238,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
