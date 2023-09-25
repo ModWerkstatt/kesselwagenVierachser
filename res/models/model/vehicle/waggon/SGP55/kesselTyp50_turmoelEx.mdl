@@ -641,12 +641,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("SGP Bj. 1955 (GySEV ex, Turmöl) [2011]"),
+			description = _("kesselSGP_desc"),
+			name = _("SGP Bj. 1955 (GySEV ex. Turmöl) [2011]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,

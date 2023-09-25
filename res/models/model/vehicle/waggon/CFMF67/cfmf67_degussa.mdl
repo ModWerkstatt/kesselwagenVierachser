@@ -578,7 +578,7 @@ return {
 			yearFrom = 1978,
 			yearTo = 1985,
 		},
-				cargoSlotProvider = {
+		cargoSlotProvider = {
 			slots = {
 				{
 					group = 0,
@@ -635,12 +635,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
+			description = _("kesselCFMF_desc"),
 			name = _("CFMF Bj. 1967 (Sogefa/Degussa) [1978]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,

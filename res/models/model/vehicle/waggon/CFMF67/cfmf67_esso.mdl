@@ -578,7 +578,7 @@ return {
 			yearFrom = 1980,
 			yearTo = 1994,
 		},
-				cargoSlotProvider = {
+		cargoSlotProvider = {
 			slots = {
 				{
 					group = 0,
@@ -635,12 +635,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
+			description = _("kesselCFMF_desc"),
 			name = _("CFMF Bj. 1967 (Esso) [1980]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,
@@ -724,7 +725,7 @@ return {
 				horn = "",
 				name = "mw_kessel",
 			},
-			topSpeed = 27.7,
+			topSpeed = 27.700000762939,
 			weight = 21,
 		},
 		transportVehicle = {

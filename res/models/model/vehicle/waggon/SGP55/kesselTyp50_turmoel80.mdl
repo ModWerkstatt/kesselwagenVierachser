@@ -640,13 +640,13 @@ return {
 			price = -1,
 			priceScale = 1,
 		},
-		description = {
+		description = { description = _"kesselSGP_desc",
 			name = _("SGP Bj. 1955 (Turmöl) [1978]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,

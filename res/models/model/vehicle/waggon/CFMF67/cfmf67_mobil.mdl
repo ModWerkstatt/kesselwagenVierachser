@@ -611,10 +611,10 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1978,
+			yearFrom = 1985,
 			yearTo = 1994,
 		},
-				cargoSlotProvider = {
+		cargoSlotProvider = {
 			slots = {
 				{
 					group = 0,
@@ -671,12 +671,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("CFMF Bj. 1967 (EVA/Mobil) [1978]"),
+			description = _("kesselCFMF_desc"),
+			name = _("CFMF Bj. 1967 (EVA/Mobil) [1985]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,
@@ -760,7 +761,7 @@ return {
 				horn = "",
 				name = "mw_kessel",
 			},
-			topSpeed = 27.700000762939,
+			topSpeed = 33.299999237061,
 			weight = 21,
 		},
 		transportVehicle = {

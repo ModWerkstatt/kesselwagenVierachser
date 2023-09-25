@@ -37,7 +37,7 @@ return {
 			price = 0,
 		},
 		description = {
-			name = _("Ölkesselwagen Ürdingen/SGP"),
+			name = _("Zacs (Ürdingen/SGP)"),
 		},
 		maintenance = {
 			lifespan = 29220,

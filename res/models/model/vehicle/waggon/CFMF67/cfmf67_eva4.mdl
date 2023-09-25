@@ -576,9 +576,9 @@ return {
 	metadata = {
 		availability = {
 			yearFrom = 1970,
-			yearTo = 1985,
+			yearTo = 1982,
 		},
-				cargoSlotProvider = {
+		cargoSlotProvider = {
 			slots = {
 				{
 					group = 0,
@@ -635,12 +635,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
+			description = _("kesselCFMF_desc"),
 			name = _("CFMF Bj. 1967 (EVA) [1970]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,

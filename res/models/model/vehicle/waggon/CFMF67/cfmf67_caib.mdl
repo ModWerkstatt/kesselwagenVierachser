@@ -599,10 +599,10 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1980,
+			yearFrom = 1983,
 			yearTo = 2000,
 		},
-				cargoSlotProvider = {
+		cargoSlotProvider = {
 			slots = {
 				{
 					group = 0,
@@ -659,12 +659,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("CFMF Bj. 1967 (CAIB) [1980]"),
+			description = _("kesselCFMF_desc"),
+			name = _("CFMF Bj. 1967 (CAIB) [1983]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,
@@ -692,7 +693,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = {"vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh", },
+					axles = { "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh", },
 					backBackwardParts = { },
 					backForwardParts = { 1, 2, 3, 4, },
 					blinkLightsLeft0 = { },
@@ -748,7 +749,7 @@ return {
 				horn = "",
 				name = "mw_kessel",
 			},
-			topSpeed = 33.3,
+			topSpeed = 33.299999237061,
 			weight = 21,
 		},
 		transportVehicle = {

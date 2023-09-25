@@ -37,7 +37,7 @@ return {
 			price = 0,
 		},
 		description = {
-			name = _("Ölkesselwagen WU/CFMF"),
+			name = _("Zas (WU/CFMF)"),
 		},
 		maintenance = {
 			lifespan = 29220,

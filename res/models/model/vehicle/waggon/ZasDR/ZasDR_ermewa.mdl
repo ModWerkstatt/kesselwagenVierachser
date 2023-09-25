@@ -230,6 +230,18 @@ return {
 						name = "zugschluss_de_front",
 						transf = { 0.99522715806961, -1.3366779967328e-06, 0.09758286178112, 0, 0.00017165708413813, 0.9999971985817, -0.0017369968118146, 0, -0.097582682967186, 0.0017454589251429, 0.99522531032562, 0, -7.8000001907349, 1.1000000238419, 1.5299999713898, 1, },
 					},
+										{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/DRzas/jay_mesh_zasDR_halterungGitter_lod0.msh",
+						name = "jay_mesh_zasDR_halterungGitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/DRzas/jay_mesh_zasDR_kesselStegGitter_lod0.msh",
+						name = "jay_mesh_zasDR_kesselStegGitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 					{
 						materials = { "vehicle/waggon/DRzas/ZasDR_ermewa.mtl", },
 						mesh = "vehicle/waggon/DRzas/jay_mesh_zasDR_unterbau_lod1.msh",
@@ -385,6 +397,18 @@ return {
 		{
 			node = {
 				children = {
+													{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/DRzas/jay_mesh_zasDR_halterungGitter_lod0.msh",
+						name = "jay_mesh_zasDR_halterungGitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kesselTyp50/Gitter.mtl", },
+						mesh = "vehicle/waggon/DRzas/jay_mesh_zasDR_kesselStegGitter_lod0.msh",
+						name = "jay_mesh_zasDR_kesselStegGitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 					{
 						materials = { "vehicle/waggon/DRzas/ZasDR_ermewa.mtl", },
 						mesh = "vehicle/waggon/DRzas/jay_mesh_zasDR_unterbau_lod2.msh",
@@ -628,7 +652,7 @@ return {
 			price = -1,
 			priceScale = 1,
 		},
-		description = {
+		description = { description = _"kesselDR_desc",
 			name = _("Zas (Ermewa ex. DR) [1994]"),
 		},
 		emission = {
@@ -718,7 +742,7 @@ return {
 				horn = "",
 				name = "mw_kessel",
 			},
-			topSpeed = 27.770000457764,
+			topSpeed = 33.3,
 			weight = 22.5,
 		},
 		transportVehicle = {

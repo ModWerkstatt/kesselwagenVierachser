@@ -593,10 +593,10 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1978,
+			yearFrom = 1983,
 			yearTo = 2000,
 		},
-				cargoSlotProvider = {
+		cargoSlotProvider = {
 			slots = {
 				{
 					group = 0,
@@ -653,12 +653,13 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("WU Siegen Bj. 1971 (VTG) [1978]"),
+			description = _("kesselSiegen_desc"),
+			name = _("WU Siegen Bj. 1971 (VTG) [1983]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,
@@ -742,7 +743,7 @@ return {
 				horn = "",
 				name = "mw_kessel",
 			},
-			topSpeed = 27.700000762939,
+			topSpeed = 33.299999237061,
 			weight = 21,
 		},
 		transportVehicle = {

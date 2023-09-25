@@ -652,13 +652,13 @@ return {
 			price = -1,
 			priceScale = 1,
 		},
-		description = {
+		description = { description = _"kesselSiegen_desc",
 			name = _("WU Siegen Bj. 1971 (VTG) [2000]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,
@@ -742,7 +742,7 @@ return {
 				horn = "",
 				name = "mw_kessel",
 			},
-			topSpeed = 27.700000762939,
+			topSpeed = 33.3,
 			weight = 21,
 		},
 		transportVehicle = {

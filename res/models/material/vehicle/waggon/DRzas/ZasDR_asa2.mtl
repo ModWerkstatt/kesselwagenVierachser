@@ -21,7 +21,7 @@ return {
 			rustColor = { 0.45098036527634, 0.45098036527634, 0.45098036527634, },
 			rustFactor = 0,
 			rustOpacity = 0,
-			rustScale = 1,
+			rustScale = 0,
 		},
 		fade_out_range = {
 			fadeOutEndDist = 20000,

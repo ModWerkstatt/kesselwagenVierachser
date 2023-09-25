@@ -634,13 +634,13 @@ return {
 			price = -1,
 			priceScale = 1,
 		},
-		description = {
+		description = { description = _"kesselCFMF_desc",
 			name = _("CFMF Bj. 1967 (GATX ex. EVA) [2006]"),
 		},
 		emission = {
-			idleEmission = 0,
-			powerEmission = 0,
-			speedEmission = 0,
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
 		},
 		maintenance = {
 			lifespan = 20000,
@@ -651,7 +651,7 @@ return {
 			blinkInterval = 500,
 			configs = {
 				{
-					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod0.msh", },
+					axles = { "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod0.msh", },
 					backBackwardParts = { },
 					backForwardParts = { 1, 2, },
 					blinkLightsLeft0 = { },
@@ -668,7 +668,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod1.msh", },
+					axles = { "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod1.msh", },
 					backBackwardParts = { },
 					backForwardParts = { 1, 2, },
 					blinkLightsLeft0 = { },
@@ -685,7 +685,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod2.msh", },
+					axles = { "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod2.msh", },
 					backBackwardParts = { },
 					backForwardParts = { },
 					blinkLightsLeft0 = { },
@@ -702,7 +702,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod3.msh", },
+					axles = { "vehicle/waggon/gestelly25/jay_y25_mesh_w1_lod3.msh", },
 					backBackwardParts = { },
 					backForwardParts = { },
 					blinkLightsLeft0 = { },
