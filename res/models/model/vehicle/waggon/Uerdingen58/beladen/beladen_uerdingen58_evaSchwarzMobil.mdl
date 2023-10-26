@@ -731,7 +731,7 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 56,
+									capacity = 64,
 									seats = { },
 									type = "FUEL",
 								},
@@ -741,7 +741,7 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 56,
+									capacity = 64,
 									seats = { },
 									type = "CRUDE",
 								},
@@ -751,7 +751,7 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 56,
+									capacity = 64,
 									seats = { },
 									type = "OIL",
 								},

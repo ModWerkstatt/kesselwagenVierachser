@@ -753,7 +753,7 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 72,
+									capacity = 80,
 									customCargoModels = {
 										configurations = {
 											{
@@ -777,7 +777,7 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 72,
+									capacity = 80,
 									customCargoModels = {
 										configurations = {
 											{
@@ -796,7 +796,7 @@ return {
 						{
 							cargoEntries = {
 								{
-									capacity = 72,
+									capacity = 80,
 									customCargoModels = {
 										configurations = {
 											{
